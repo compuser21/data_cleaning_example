@@ -106,11 +106,13 @@ The original dataset contained multiple issues:
 
 Example (raw data snapshot):
 
-| Column A | Column B | Column C | Column D |
-|----------|----------|----------|----------|
-|  23      | male     | 2022/01/05 | NY!!   |
-|  NaN     | FEMALE   | 05-01-2022 | ny     |
-|  23      | Male     | 2022.01.05 | NY     |
+| victim_gender | victim_phone | weapon_used | severity | case_status | resolution | num_arrests | property_loss_usd | reported_online |
+|---------------|--------------|-------------|----------|-------------|------------|-------------|-------------------|-----------------|
+| Unknown | 6223265920 | Firearm | 2 | Open | No Arrest | NaN | NaN | True |
+| NaN | 241-973-4826 | Firearm | 3 | NaN | NaN | 2.0 | 44839.49 | yes |
+| Other | 244-584-7696 | KNIFE | 1 | CLOSED | warning | 2.0 | 15963.38 | YES |
+| NaN | 5021227484 | hands | Low | Resolved | NaN | 5.0 | 48680.14 | False |
+| M | 9698766873 | Unarmed | MEDIUM | Closed | Warning Issued | 2.0 | 23513.01 | YES |
 
 ---
 
