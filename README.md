@@ -144,6 +144,7 @@ This step clearly shows that **data cleaning is not just preprocessing — it di
 ---
 
 ## 📁 Project Structure
+```
 ├───data
 │   ├───cleaned
 │   │   └───cleaned_crime_dataset.csv
@@ -155,6 +156,7 @@ This step clearly shows that **data cleaning is not just preprocessing — it di
 ├───screenshots
 ├── README.md
 └── requirements.txt
+```
 
 ---
 
