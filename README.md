@@ -138,6 +138,18 @@ Example (cleaned data snapshot):
 
 ---
 
+## 📊 Visualizations
+
+### Top Crime Types
+
+![Top Crime Types](graphics/top10crimes.png)
+
+### Crime Severity Distribution
+
+![Crime Severity Distribution](graphics/crimeseverity.png)
+
+---
+
 ### 📊 Impact Summary
 
 | Metric | Before | After |
@@ -165,7 +177,7 @@ This step clearly shows that **data cleaning is not just preprocessing — it di
 ├───notebooks
 │   ├───data_cleaning.ipynb
 │   └───.ipynb_checkpoints
-├───screenshots
+├───graphics
 ├── README.md
 └── requirements.txt
 ```
