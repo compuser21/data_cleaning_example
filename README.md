@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458.svg)
 ![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-013243.svg)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C.svg)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
 ![Data Cleaning](https://img.shields.io/badge/Focus-Data%20Cleaning-red.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
