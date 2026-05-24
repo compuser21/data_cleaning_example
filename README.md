@@ -124,7 +124,17 @@ After preprocessing, the dataset became:
 - ✅ Missing values handled (removed or imputed)  
 - ✅ Standardized categorical values  
 - ✅ Correct data types across all columns  
-- ✅ Normalized text fields  
+- ✅ Normalized text fields
+
+Example (cleaned data snapshot):
+
+| victim_gender | victim_phone | weapon_used | severity | case_status | resolution | num_arrests | property_loss_usd | reported_online |
+|---------------|--------------|-------------|----------|-------------|------------|-------------|-------------------|-----------------|
+| Unknown | 622-326-5920 | Firearm | Medium | Open | No Arrest | 0.0 | 0 | Yes |
+| Unknown | 241-973-4826 | Firearm | High | Unknown | Unknown | 2.0 | 44839.49 | Yes |
+| Other | 244-584-7696 | Knife | Low | Closed | Warning | 2.0 | 15963.38 | Yes |
+| Unknown | 502-122-7484 | Hands | Low | Resolved | Unknown | 5.0 | 48680.14 | No |
+| Male | 969-876-6873 | Unarmed | Medium | Closed | Warning Issued | 2.0 | 23513.01 | Yes |
 
 ---
 
